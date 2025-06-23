@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      configuration: release
     steps:
     # checkout all sources from git
     - name: Checkout Sources
